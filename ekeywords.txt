@@ -1,0 +1,25 @@
+Block comment: <' '>
+
+line comment: --
+
+string: "",''
+
+macro: define [as]
+
+preprocessor: #define, #ifdef, #ifndef, #else
+
+funcs: extend, add, as_a, unpack, pack, wait, gen, init, is, also, only, appendf, rise, fall, cover, cross, item, run, change, post_generate, pre_generate, dut_error, that, assert, expect
+
+commands: import, me, it, event, emit, start, state machine, when, like, while, do, for, each, if, else, case, default, using, method_type, out, outf, message, messagef
+
+keywords: true, TRUE, false, FALSE, private, sys, time, !, %, @, =>, size, port, simple_port, in, out, sim, sys.any
+
+storage keyword: var, type, class, struct, list of, item, keeping, keep, soft, unit, int, uint, byte, bool, operator, register, export
+
+braces and parens: []{}()
+
+subroutine call:"&\\w(\\w, ::)*>, <\\w(\\w, ::)*(?=\\s*\\()" raise_objection, drop_objection
+
+method:"&\\w(\\w, ::)*>, <\\w(\\w, ::)*(?=\\s*\\{)
+
+list methods: 
